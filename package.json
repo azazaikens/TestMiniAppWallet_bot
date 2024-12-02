@@ -2,6 +2,7 @@
   "name": "react-start",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://azazaukens.github.io/TestMiniAppWallet_bot/",
   "dependencies": {
     "18": "^0.0.0",
     "@testing-library/jest-dom": "^5.17.0",
@@ -12,13 +13,14 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "^3.0.1",
+    "tonweb": "^0.0.66",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
     "devtg": "nodemon App.test.js",
     "starttg": "node App.test.js",
-    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -41,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
     "cross-env": "^7.0.3"
   }
 }

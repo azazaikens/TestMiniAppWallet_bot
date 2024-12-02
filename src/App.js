@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+// import connectWallet from './component/connectWallet';
 
 const tg = window.Telegram.WebApp
 
@@ -12,6 +13,7 @@ function App() {
   return (
     <>
       <button onClick={onClose}>Close</button>
+      {/* <button onClick={connectWallet}>Connect</button> */}
     </>
   )
 }
