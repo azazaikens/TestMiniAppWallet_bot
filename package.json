@@ -2,7 +2,7 @@
   "name": "react-start",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://azazaukens.github.io/TestMiniAppWallet_bot/",
+  "homepage": "https://azazaikens.github.io/TestMiniAppWallet_bot/",
   "dependencies": {
     "18": "^0.0.0",
     "@testing-library/jest-dom": "^5.17.0",
